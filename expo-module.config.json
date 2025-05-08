@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoScreenLockUnlockDetectModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.screenlockunlockdetect.ExpoScreenLockUnlockDetectModule"]
+  }
+}
