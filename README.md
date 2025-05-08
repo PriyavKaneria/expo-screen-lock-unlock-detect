@@ -23,12 +23,12 @@ npm install expo-screen-lock-unlock-detect
 
 ### Configure for Android
 
+APIs available
+`checkDeviceLockStatus` : "locked" | "unlocked" | "screen_on" | "unknown"
+`addOnScreenLockListener` : () => {} // callback function
+`addOnScreenUnlockListener` : () => {} // callback function
 
-
-
-### Configure for iOS
-
-Run `npx pod-install` after installing the npm package.
+Not much useful as there is no reliable way to call this library if app is closed
 
 # Contributing
 

@@ -14,7 +14,7 @@
 		},
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "expo.modules.screenlockunlockdetect.ExpoScreenLockUnlockDetectModule"
+			"bundleIdentifier": "expo.modules.screenlockunlockdetect.example"
 		},
 		"android": {
 			"adaptiveIcon": {
@@ -22,7 +22,7 @@
 				"backgroundColor": "#ffffff"
 			},
 			"edgeToEdgeEnabled": true,
-			"package": "expo.modules.screenlockunlockdetect.ExpoScreenLockUnlockDetectModule"
+			"package": "expo.modules.screenlockunlockdetect.example"
 		},
 		"web": {
 			"favicon": "./assets/favicon.png"

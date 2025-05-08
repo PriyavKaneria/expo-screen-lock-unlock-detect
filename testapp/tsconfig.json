@@ -1,0 +1,23 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "expo-screen-lock-unlock-detect": [
+        "../src/index"
+      ],
+      "expo-screen-lock-unlock-detect/*": [
+        "../src/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}
